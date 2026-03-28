@@ -653,12 +653,21 @@ with col4:
     """, unsafe_allow_html=True)
 
 # Footer
+from datetime import datetime, timedelta, timezone
+
+# Calculate Nepal Time (UTC + 5:45)
+# Using timezone.utc is the modern, recommended way
+nepal_time = datetime.now(timezone.utc) + timedelta(hours=5, minutes=45)
+
+# Fixed format string: %p (Uppercase) is the standard for Windows
+last_updated_str = nepal_time.strftime("%Y-%m-%d %I:%M %p") 
+
 st.markdown("<div class='divider'></div>", unsafe_allow_html=True)
-st.markdown("""
+st.markdown(f"""
     <div style='text-align: center; color: #8899a6; font-size: 0.85rem; margin-top: 30px;'>
         <p>💡 <strong>Disclaimer:</strong> This dashboard is for educational and informational purposes only. 
-        It is not financial advice. Always consult with a financial advisor before making investment decisions.</p>
-        <p style='font-size: 0.8rem; margin-top: 15px;'>Last Updated: """ + datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC") + """</p>
+        It is not financial advice.</p>
+        <p style='font-size: 0.8rem; margin-top: 15px;'>Last Updated: {last_updated_str} (Nepal Time)</p>
     </div>
     """, unsafe_allow_html=True)
 
