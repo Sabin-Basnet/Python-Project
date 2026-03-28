@@ -1,0 +1,6 @@
+# Ignore the SQLite database
+stock_data.db
+
+# Ignore all other database files just in case
+*.db
+*.pkl

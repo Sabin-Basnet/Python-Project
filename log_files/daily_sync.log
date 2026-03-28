@@ -1,0 +1,12 @@
+2026-03-28 11:56:29,474 [INFO] Downloading S&P 500 Index (^GSPC) for today...
+2026-03-28 11:56:30,243 [INFO] Index: inserted 0 rows.
+2026-03-28 11:56:45,747 [INFO] [23/503] ALL: inserted 1 new rows + indicators.
+2026-03-28 11:56:46,410 [INFO] [24/503] ALLE: inserted 1 new rows + indicators.
+2026-03-28 11:56:47,097 [INFO] [25/503] AMAT: inserted 1 new rows + indicators.
+2026-03-28 11:56:47,754 [INFO] [26/503] AMCR: inserted 1 new rows + indicators.
+2026-03-28 11:56:48,381 [INFO] [27/503] AMD: inserted 1 new rows + indicators.
+2026-03-28 11:56:49,122 [INFO] [28/503] AME: inserted 1 new rows + indicators.
+2026-03-28 11:56:49,769 [INFO] [29/503] AMGN: inserted 1 new rows + indicators.
+2026-03-28 11:56:50,453 [INFO] [30/503] AMP: inserted 1 new rows + indicators.
+2026-03-28 11:56:51,114 [INFO] [31/503] AMT: inserted 1 new rows + indicators.
+2026-03-28 11:56:51,751 [INFO] [32/503] AMZN: inserted 1 new rows + indicators.
